@@ -1,0 +1,10 @@
+{
+    "products": [
+      { "id": 1, "name": "json-server", "description": "typicode" },
+      { "id": 2, "name": "json-server", "description": "typicode" },
+      { "id": 3, "name": "json-server", "description": "typicode" },
+      { "id": 4, "name": "json-server", "description": "typicode" }
+      
+    ]
+   
+  }
