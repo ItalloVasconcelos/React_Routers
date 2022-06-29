@@ -1,10 +1,31 @@
 {
-    "products": [
-      { "id": 1, "name": "json-server", "description": "typicode" },
-      { "id": 2, "name": "json-server", "description": "typicode" },
-      { "id": 3, "name": "json-server", "description": "typicode" },
-      { "id": 4, "name": "json-server", "description": "typicode" }
-      
-    ]
-   
-  }
+  "products": [
+    {
+      "id": 3,
+      "name": "X-Bacon",
+      "description": "Pão, bife de hambúrguer 90g, 1 fatia de queijo, 2 fatia de bacon, salada e batata.",
+      "price": 12.5,
+      "cadegory_id": 1
+    },
+    {
+      "id": 4,
+      "name": "X-Tudo",
+      "description": "Pão, 2 bifes de hambúrguer 90g, 2 fatias de queijo, 4 fatias de bacon, salada e batata.",
+      "price": 14.5,
+      "cadegory_id": 1
+    },
+    {
+      "id": 5,
+      "name": "Coca cola 350ml",
+      "description": "",
+      "price": 5.5,
+      "cadegory_id": 2
+    },
+    {
+      "name": "Pizza peperoni com chedder",
+      "price": "674",
+      "description": "Pizza boa que vem com um pedacinho de ouro, bora comprar",
+      "id": 11
+    }
+  ]
+}
