@@ -1,8 +1,9 @@
 import { Link }  from 'react-router-dom'
-//import { useFetch } from '../../hooks'
+import { useFetch } from '../../hooks/useFetch.js'
+import "./Home.css"
 
 const Home = () => {
-    const url = 'http://'
+    const url = 'http://localhost:3001/products'
     const {data: items, loading, error} = useFetch(url)
      return (
         <div>
@@ -11,9 +12,9 @@ const Home = () => {
             <ol className="products">
                 {items && items.map((item) => (
                     <li key={item.id}>
-                        <h2>{products.name}</h2>
-                        <p>R${products.price}</p>
-                        <p>{products.description}</p>
+                        <h2>{item.name}</h2>
+                        <p>R${item.price}</p>
+                        <p>{item.description}</p>
                         <Link to={`/products/${item.id}`}>Detalhes</Link>
                     </li>
                 ))}

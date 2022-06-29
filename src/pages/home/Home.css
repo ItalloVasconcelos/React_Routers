@@ -1,3 +1,4 @@
+
 .products {
     display: flex;
     justify-content: center;
@@ -5,11 +6,19 @@
 }
 
 .products li {
-    border: 1px solid #efefef;
-    border-radius: 5px;
-    padding: 10px;
+    border: 3px solid #e2b2b2;
+    background-color: #6a6dff;
+    border-radius: 10px;
+    padding: 15px;
     text-align: center;
     list-style: none;
-    margin: 0 10px;
+    margin: 5px 5px;
     width: 25%;
+}
+
+.products li:hover,
+ .products li:focus {
+    box-shadow: 0 0.7em 4em -0.4em #6a6dff;
+    transform: translateY(-0.25em);
+
 }
